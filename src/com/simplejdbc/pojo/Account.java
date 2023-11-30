@@ -5,13 +5,11 @@ public class Account {
     private Integer aid;
     private String username;
     private String password;
-    private Double money;
 
-    public Account(Integer aid, String username, String password, Double money) {
+    public Account(Integer aid, String username, String password) {
         this.aid = aid;
         this.username = username;
         this.password = password;
-        this.money = money;
     }
 
     public Account() {
@@ -42,21 +40,12 @@ public class Account {
         this.password = password;
     }
 
-    public Double getMoney() {
-        return money;
-    }
-
-    public void setMoney(Double money) {
-        this.money = money;
-    }
-
     @Override
     public String toString() {
         return "Account{" +
                 "aid=" + aid +
                 ", username='" + username + '\'' +
-                ", password='" + password + '\'' +
-                ", money=" + money +
+                ", password='" + password +
                 '}';
     }
 }
