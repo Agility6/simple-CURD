@@ -9,8 +9,5 @@
         <module name="simple-jdbc" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="MybatisLearn" target="1.7" />
-    </bytecodeTargetLevel>
   </component>
 </project>
