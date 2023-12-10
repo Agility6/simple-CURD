@@ -34,7 +34,8 @@
     </environments>
 
     <mappers>
-        <mapper class="t.dao.AccountDao"/>
+        <mapper class="com.simplejdbc.dao.AccountDao"/>
+        <mapper resource="mappers/Account.xml"/>
     </mappers>
 
 </configuration>

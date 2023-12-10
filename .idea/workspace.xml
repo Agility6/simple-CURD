@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ce65291-3779-4e9e-886c-0e73e8a3cdf7" name="Changes" comment="chore: update">
+    <list default="true" id="8ce65291-3779-4e9e-886c-0e73e8a3cdf7" name="Changes" comment="chore: update structure">
       <change afterPath="$PROJECT_DIR$/src/test/java/com/simplejdbc/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/simplejdbc/dao/AccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/simplejdbc/dao/AccountDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
     </list>
@@ -67,6 +69,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "mybatis-version",
     "jdk.selected.JAVA_MODULE": "1.8",
@@ -94,7 +97,7 @@
       <recent name="$PROJECT_DIR$/src/sql" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AccountTest.findAllAccount">
     <configuration name="AccountTest.AccountAddTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="simple-jdbc" />
       <extension name="coverage">
@@ -111,8 +114,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AccountTest.AccountRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simple-jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.simplejdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.simplejdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.simplejdbc.AccountTest" />
+      <option name="METHOD_NAME" value="AccountRemove" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.AccountUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simple-jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.simplejdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.simplejdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.simplejdbc.AccountTest" />
+      <option name="METHOD_NAME" value="AccountUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.findAllAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simple-jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.simplejdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.simplejdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.simplejdbc.AccountTest" />
+      <option name="METHOD_NAME" value="findAllAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AccountTest.findAllAccount" />
+        <item itemvalue="JUnit.AccountTest.AccountRemove" />
+        <item itemvalue="JUnit.AccountTest.AccountUpdate" />
         <item itemvalue="JUnit.AccountTest.AccountAddTest" />
       </list>
     </recent_temporary>
@@ -136,7 +190,7 @@
       <workItem from="1702196577328" duration="35000" />
       <workItem from="1702196618815" duration="469000" />
       <workItem from="1702197095028" duration="249000" />
-      <workItem from="1702197370715" duration="214000" />
+      <workItem from="1702197370715" duration="786000" />
     </task>
     <task id="LOCAL-00001" summary="chore: init">
       <option name="closed" value="true" />
@@ -186,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702197501283</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="chore: update structure">
+      <option name="closed" value="true" />
+      <created>1702197627363</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702197627363</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +259,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="mybatis-version" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -210,6 +284,7 @@
     <MESSAGE value="chore: add maven" />
     <MESSAGE value="feat: base config" />
     <MESSAGE value="chore: update" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: update" />
+    <MESSAGE value="chore: update structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: update structure" />
   </component>
 </project>
