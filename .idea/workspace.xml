@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8ce65291-3779-4e9e-886c-0e73e8a3cdf7" name="Changes" comment="chore: update structure">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/simplejdbc/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/simplejdbc/dao/AccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/simplejdbc/dao/AccountDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Agility6&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="cb6eb0f5-51fb-4156-b7ee-ae27b3a4f1e9" />
+        <option name="url" value="https://github.com/Agility6/simple-jdbc.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$PROJECT_DIR$/../cs61b-sp21/library-sp21/javalib" />
+        <option name="usePluginRegistry" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2YszWATRxTkkL3yVV8PWaja40fm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "mybatis-version",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/agility6/t/simple-jdbc/src/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.14450866",
+    "project.structure.side.proportion": "0.4234234",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/sql" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AccountTest.findAllAccount">
+    <configuration name="AccountTest.AccountAddTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simple-jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.simplejdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.simpleTest" />
+      <option name="MAIN_CLASS_NAME" value="com.simplejdbc.AccountTest" />
+      <option name="METHOD_NAME" value="AccountAddTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.AccountRemove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simple-jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.simplejdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.simplejdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.simplejdbc.AccountTest" />
+      <option name="METHOD_NAME" value="AccountRemove" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.AccountUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simple-jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.simplejdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.simplejdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.simplejdbc.AccountTest" />
+      <option name="METHOD_NAME" value="AccountUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.findAllAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simple-jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.simplejdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.simplejdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.simplejdbc.AccountTest" />
+      <option name="METHOD_NAME" value="findAllAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AccountTest.findAllAccount" />
+        <item itemvalue="JUnit.AccountTest.AccountRemove" />
+        <item itemvalue="JUnit.AccountTest.AccountUpdate" />
+        <item itemvalue="JUnit.AccountTest.AccountAddTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ce65291-3779-4e9e-886c-0e73e8a3cdf7" name="Changes" comment="" />
+      <created>1697165460193</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697165460193</updated>
+      <workItem from="1701329106949" duration="6033000" />
+      <workItem from="1701344540626" duration="12000" />
+      <workItem from="1701517661526" duration="751000" />
+      <workItem from="1701677262687" duration="25000" />
+      <workItem from="1701677929938" duration="830000" />
+      <workItem from="1702057335527" duration="2662000" />
+      <workItem from="1702104272234" duration="8000" />
+      <workItem from="1702193169786" duration="3395000" />
+      <workItem from="1702196577328" duration="35000" />
+      <workItem from="1702196618815" duration="469000" />
+      <workItem from="1702197095028" duration="249000" />
+      <workItem from="1702197370715" duration="786000" />
+    </task>
+    <task id="LOCAL-00001" summary="chore: init">
+      <option name="closed" value="true" />
+      <created>1701332331342</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701332331342</updated>
+    </task>
+    <task id="LOCAL-00002" summary="base jdbc CRUD">
+      <option name="closed" value="true" />
+      <created>1701334350863</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701334350863</updated>
+    </task>
+    <task id="LOCAL-00003" summary="basedao impl update query method">
+      <option name="closed" value="true" />
+      <created>1701341238725</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701341238725</updated>
+    </task>
+    <task id="LOCAL-00004" summary="chore: add maven">
+      <option name="closed" value="true" />
+      <created>1702058478874</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702058478876</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: base config">
+      <option name="closed" value="true" />
+      <created>1702194379054</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702194379054</updated>
+    </task>
+    <task id="LOCAL-00006" summary="chore: update">
+      <option name="closed" value="true" />
+      <created>1702197501283</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702197501283</updated>
+    </task>
+    <task id="LOCAL-00007" summary="chore: update structure">
+      <option name="closed" value="true" />
+      <created>1702197627363</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702197627363</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="mybatis-version" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chore: init" />
+    <MESSAGE value="base jdbc CRUD" />
+    <MESSAGE value="basedao impl update query method" />
+    <MESSAGE value="chore: add maven" />
+    <MESSAGE value="feat: base config" />
+    <MESSAGE value="chore: update" />
+    <MESSAGE value="chore: update structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: update structure" />
+  </component>
+</project>
